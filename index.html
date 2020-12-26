@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-         body {
-            font-family: "Crimson Text", Garamond, "Times New Roman", serif;
-            background-color: rgb(250, 243, 221);
-            font-size: 35px;
-            color: rgb(94, 100, 114);
+          <style>
+        body {
+            font-family: Georgia, Times, "Times New Roman", serif;
+            color: rgb(0, 16, 17);
+            font-size: 15px;
         }
         a:link {
-            color: rgb(94, 100, 114);
+            color: rgb(114, 128, 138);
         }
         a:visited {
-            color: rgb(174, 217, 224);
+            color: rgb(0, 16, 17);
         }
         a:hover {
-            background-color: rgb(250, 243, 221);
+            background-color: rgb(191, 215, 181);
         }
         #titlediv {
-            border-bottom: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            margin-right: -20px;
-            margin-left: -20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size:39px;
+            background-color: rgb(241, 250, 238);
+            font-size: 25px;
+            margin: -8px;
+            padding-top: 7px;
+            padding-bottom: 7px;
         }
-        #megadiv {
-            position: absolute;
-            padding-left: 7px;
-            padding-right: 7px;
-            margin-top: -29px;
+        #links {
+            font-size: 20px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
+            text-align: center;
+            padding: 5px;
+            clear: both;
+        }
+        .sotto {
+            background-color: rgb(241, 250, 238);
+            padding: 10px;
+            margin: -8px;
         }
         #title {
             text-align: center;
@@ -40,26 +43,15 @@
             margin-top: -15px;
         }
         #psmall {
-            font-size: 20px;
-        }
-        #div2 {
-            width: 28%;
-            float: right;
-            border: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            padding-left: 7px;
-            padding-right: 7px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            font-size: 30px;
+            font-size: 25px;
         }
         #piccolo {
-            border-top: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            margin-right: -20px;
-            margin-left: -20px;
+            font-size: 10px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
             text-align: right;
-            padding-bottom: 20px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
+            padding: 5px;
+            clear: both;
         }
        #img {
             float: left;
@@ -67,21 +59,30 @@
        #img2 {
             float: right;
        }
+       .column {
+           background-color: rgb(255, 255, 255);
+           float: left;
+       }
        .rubrica {
-            border: 3px solid rgb(94, 100, 114);
+            border: 1px solid rgb(0, 16, 17);
+            margin-bottom: 20px;
             height: 270px;
             overflow: auto;
-            background-color: rgb(174, 217, 224);
-            margin-bottom: 20px;
+            background-color: rgb(191, 215, 181);
         }
         h4 {
-            background-color: rgb(184, 242, 230);
+            background-color: rgb(163, 196, 188);
             text-align: center;
-            border: 1px solid rgb(94, 100, 114);
+            border: 1px solid rgb(0, 16, 17);
             margin: 5px;
             position: relative;
             width: 98%;
         }
+      #home {
+           position: fixed;
+           right: 20px;
+           bottom: 20px;
+       }
         </style>
         <meta charset="utf-8">
         <title>Just a Bookworm!</title>
@@ -91,22 +92,12 @@
    <div id="megadiv">
         <div id="titlediv"><h1 id="title">Just a Bookworm</h1></div>
         
-        <p>In questa rubrica vorrei postare, quando mi viene in mente un argomento, qualcosa relativo a quello. In realtà non so quando mi verranno idee e quindi non so a quando aggiornerò questa pagina.<br>
+        <div class="sotto div"><p style="margin-right: 20px; margin-left: 20px;">In questa rubrica vorrei postare, quando mi viene in mente un argomento, qualcosa relativo a quello. In realtà non so quando mi verranno idee e quindi non so a quando aggiornerò questa pagina.<br>
             Vi ricordo che potete suggerirmi degli argomenti di discussione su <a href="https://tellonym.me/ranalettrice">tellonym</a>, qualsiasi cosa vogliate, sia "serio" che non.
-        </p>
+        </p></div>
         
-         <div id="div2">
-           <h3>Colonna dei contenuti:</h3>
-        <ul id="vicino">
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/">HOME</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-links/">links vari</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-film/">recensioni di film e serie TV</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-libri/">recensioni di libri</a></li>
-        </ul>
-        <p id="vicino"> you don't know Italian? See <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-english/">here</a> the English version ;) !</p>
-        </div>
-
-       <div class="rubrica" style=" font-size: 18px; width: 68%;"><h4>31 agosto 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica-agosto2020/">vedi di più</a></h4>
+         
+       <div class="sotto div"><div class="rubrica"><h4>31 agosto 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica-agosto2020/">vedi di più</a></h4>
 <p style=" margin-top: -5px; padding: 3px;">Aspettavo questo album da... non mi ricordo quando è stato annunciato, ma non vedevo l'ora che venisse pubblicato!
 <br><em>Never really over</em> — ho amato questa canzone dalla prima volta che l'ho ascoltata, e quando è uscita ho passato giorni a cercare su Internet se Katy Perry avesse annunciato un nuovo album. Ora ci siamo, più di un anno dopo :") .
 <br><em>Cry about it later</em> — dal titolo mi ispirava un sacco, però me la immaginavo completamente diversa: più lenta, più romantica, forse. È stata bellissima!!! All'inizio sono rimasta un po' sconvolta, ma wow! Il ritmo è così coinvolgente, così veloce, mi ha conquistata già al secondo ritornello. Se tutto l'album è così potrei morire.
@@ -132,7 +123,7 @@ In realtà sono tutte perfette, ho fatto fatica a scegliere quali menzionare, e 
 Anche perchè credo che questo potrebbe essere il mio album preferito di Katy Perry, ora lo devo riascoltare.</p>
 </div>
        
-       <div class="rubrica" style=" font-size: 18px; width: 68%;"><h4>27 luglio 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica-luglio2020/">vedi di più</a></h4>
+       <div class="rubrica"><h4>27 luglio 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica-luglio2020/">vedi di più</a></h4>
            <p style=" margin-top: -5px; padding: 3px;">Il 24 luglio stavo controllando Instagram dal browser (ho disinstallato l'app secoli fa), non so nemmeno perchè, in genere non lo faccio praticamente mai, ma sono finita per caso sul profilo di Taylor Swift e... Non riuscivo a respirare, era tutto troppo bello per essere vero e non potevo resistere, <strong>dovevo</strong> ascoltare il nuovo album. In qualche modo sono riuscita ad aspettare fino a quando avrei potuto scrivere le mie impressioni, e sono queste ;) .<br>
                <em>the 1</em> – non sono ancora riuscita a capire se mi sia piaciuta o no (ma del resto l’ho ascoltata una sola volta), ma credo che se la riascoltassi più volte mi piacerebbe un sacco! È molto soft e in stile quasi ninna nanna¿ (e io amo queste canzoni), ma è malinconica ed è così diversa dalle altre canzoni di Taylor Swift che non so… <br>
                <em>cardigan</em> – questa mi ispirava tantissimo dal titolo e mi è piaciuta. Ho visto il video ufficiale (è bellissimo!) e non ho capito tutto il testo, quanto bastava per capirne il senso, ma poi sono andata a cercarlo su Internet e sì, è particolare (anche tutta la metafora con i cardigan ooops). Il testo e il suo significato mi ricorda un sacco quelli dei primi album di Taylor Swift (da <em>Taylor Swift</em> a <em>Speak Now</em>), solo che con una musica diversa, più soft (e tutto questo mi sta piacendo un sacco). Nel complesso direi che è molto dolce, molto romantica e idealizzata, per ora l’album mi ricorda i giorni di pioggia.<br>
@@ -140,7 +131,7 @@ Anche perchè credo che questo potrebbe essere il mio album preferito di Katy Pe
                <em>exile</em> – ho un sacco di cose da dire su questa canzone. All’inizio non mi piaceva: quando Bon Iver ha iniziato a cantare… non mi è piaciuto per niente. Non mi piacciono le voci maschili nel canto perché… non so perché, ma non mi piaceva come cantava. Quando è comparsa Taylor Swift la canzone ha iniziato a piacermi molto di più, ma la fine è stata bella. Mi è piaciuto un sacco il duetto finale, quando cantavano contemporaneamente le loro voci si intrecciavano e… wow! Per quanto riguarda il testo… mi è piaciuto molto il fatto che interpretassero i due protagonisti della canzone e ognuno con un punto di vista diverso, è stato molto ad effetto.<br>
                <em>my tears ricochet</em> – quando l’ho iniziata non mi piaceva molto, però ora della fine non ne ero più tanto sicura, è una canzone strana. Ora la sto riascoltando, e credo che non mi dispiaccia, però è tutta così strana e non riesco a capire. Probabilmente tra un paio di giorni la amerò. O forse tra un paio di ore, non riesco a togliermela dalla mente.<br> Nulla, credo che sia diventata una delle mie preferite, riesce a creare un posto a parte, a "isolare" chi la ascolta. Inoltre, la voce di Taylor Swift in questa canzone... non ci sono parole per descriverla, rende tutto magico.<br>
                <em>mirrorball</em> – okay, questa mi è piaciuta. Anche questa mi da un’impressione di dolcezza e di calma. Credo che sia, per ora, la mia canzone preferita dell’album. Davvero, non riesco a trovarci difetti, è così perfetta. I versi che fanno <br>
-<span id=”psmall” style="font-size:20px;">“Hush, when no one is around, my dear<br>
+<span id="psmall" style="font-size:20px;">“Hush, when no one is around, my dear<br>
 You'll find me on my tallest tiptoes<br>
 Spinning in my highest heels, love”<br></span>
 mi fanno venire voglia di stare zitta e ascoltare la canzone, è magnifica.<br>
@@ -152,30 +143,32 @@ mi fanno venire voglia di stare zitta e ascoltare la canzone, è magnifica.<br>
                <em>mad woman</em> - non mi ha convinto molto. È molto originale, ha una sua musicalità, il testo coinvolge e fa venire voglia di cantare, ma... non mi ha convinto.<br>
                <em>epiphany</em> - mi è piaciuta moltissimo. Amo questo genere di canzoni lente e quasi disadorne, e questo brano ne è il rappresentante. Già dall'inizio mi ha trasmesso qualcosa di fantastico, di distopico, sia per la musica essenziale, che per il testo di guerra, caos e violenza.<br>
                <em>betty</em> - non vedevo l'ora di ascoltare questa canzone per chiarire tutto riguardo al "Teenage Love Triangle" e in effetti mi sono chiarita le idee. Tutto in questa canzone combacia con quella dal punto di vista di Inez <em>august</em> e ci sono anche un sacco di riferimenti a <em>cardigan</em>! La parte, alla fine, in cui parla del cardigan di Betty, ma anche i versi<br>
-<span id=”psmall” style="font-size:20px;">"I'm only seventeen,<br>
+<span id="psmall" style="font-size:20px;">"I'm only seventeen,<br>
 I don't know anything"</span><br>
 si riferiscono a quelli di <em>cardigan</em><br>
-<span id=”psmall” style="font-size:20px;">"When you are young they assume you know nothing".</span><br>
+<span id="psmall" style="font-size:20px;">"When you are young they assume you know nothing".</span><br>
 Ci sono poi anche altri riferimenti (il più palese è "Chase two girls lose the one") e questa cosa mi è piaciuta moltissimo. La canzone in sè mi è piaciuta un sacco, un ritorno ai primi album e la parte finale, di quando James va alla festa, mi ha ricordato moltissimo <em>Enchanted</em>. Ero curiosa riguardo a questa canzone, ma non mi sarei mai aspettata che mi avrebbe completamente conquistato!<br>
                <em>peace</em> - provo emozioni contrastanti riguardo a questa canzone: il testo e per come è cantato mi piace, è carino, ma per me stonava con la musica. Il testo è come un passo avanti rispetto al sottofondo musicale (che di per sè è anche questo carino, amo il dream pop). Insieme, musica e testo, mi sembra che stonassero, mancava qualcosa alla musica.<br>
                <em>hoax</em> - anche l'inizio di questa canzone ha qualcosa di distopico e fantastico, che mi ha subito incuriosito. È stata una strana canzone, ma credo che mi sia piaciuta, è molto lenta ed è perfetta per concludere l'album. Solo io ho notato qualche riferimento a <em>The Archer</em>? Quando parlava di non guardare il film perchè l'eroe era morto e tutte le parti in cui diceva<br>
-<span id=”psmall” style="font-size:20px;">"You knew it still hurts underneath my scars<br>
+<span id="psmall" style="font-size:20px;">"You knew it still hurts underneath my scars<br>
    From when they pulled me apart".</span><br>
                Riassumendo: l'album mi è piaciuto molto (soprattutto <em>mirrorball</em>, <em>the last great american dynasty</em> e <em>betty</em>!!!), ma per ora non regge il confronto con <em>Lover</em> (e decisamente con <em>Reputation</em>). Ho scritto "per ora" perchè sono abbastanza sicura che più ascolterò le canzoni, più mi piaceranno. In ogni caso <em>folklore</em> è un album molto particolare e si vede che Taylor Swift è sotto certi aspetti cresciuta (o quantomeno cambiata) da <em>Lover</em>.<br><br>
                È passato qualche giorno da quando ho postato la recensione e alla fine credo che <em>folklore</em> riesca veramente ad essere al livello degli ultimi 2 album di Taylor Swift. È molto bello ma in un modo diverso, più maturo, forse. In ogni caso la mia canzone preferita dell'album è <em>seven</em>. In che senso all'inizio non mi aveva convinta??? È magnifica.         </p>
        </div>
        
-         <div class="rubrica" style=" font-size: 30px; width: 98%; clear: both;"><h4>2 luglio 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica-giugno20202/">vedi di più</a></h4>
+         <div class="rubrica"><h4>2 luglio 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica-giugno20202/">vedi di più</a></h4>
              <p style=" margin-top: -5px; padding: 3px;">Sabato, il 27 giugno, era il Global Pride e, se non fosse stato per la pandemia, sarei andata alla pride parade di Milano. Quando l'hanno annullata ci sono rimasta un po' male, ovviamente, ma capisco che non si poteva fare altrimenti.
         Non sono mai andata ad un pride con l'intenzione di andarci (l'anno scorso quando ero in vacanza-studio a Dublino siamo andati in gita a Belfast e - ooooops! - c'era il pride). In ogni caso non ho veramente partecipato, sono stata più che altro una spettatrice, ma lì ho deciso che avrei visto il pride 2020.
       Ho aspettato il pride virtuale 2020 con ansia, ma alla fine non mi è piaciuto moltissimo: ho guardato solo pochi spezzoni quando avevo tempo, in totale sarà stata un'ora, ma mi è sembrato disorganizzato, troppo frammentato. Ogni persona che parlava lo faceva per un minuto al massimo, e poi si passava subito ad un altro, che diceva o mostrava qualcosa di completamente diverso. E poi i brani: inseriti quasi casualmente nel video... Non so, da come era descritto nel sito ufficiale mi aspettavo di meglio... A questo punto spero di riuscire ad andare a Milano l'anno prossimo :) .
              </p>
        </div>
 
-       <div class="rubrica" style=" font-size: 30px; width: 98%; clear: both;"><h4>15 giugno 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica-giugno2020/">vedi di più</a></h4>
+       <div class="rubrica"><h4>15 giugno 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica-giugno2020/">vedi di più</a></h4>
              <p style=" margin-top: -5px; padding: 3px;">So che magari è un po' banale, ma vorrei parlare dei film <strong>Marvel</strong> e della mia esperienza¿ con questi film.Ho iniziato a guardarli circa un anno fa e decisamente controvoglia: non mi piacciono per niente i film d'azione e mi infastidiva che tutti continuassero a chiedermi di iniziare la saga degli Avengers. Ma non so dire di no e quindi sono stata "costretta". <strong>UNA DELLE SCELTE MIGLIORI CHE ABBIA MAI FATTO!!!</strong> So di essere troppo melodrammatica, ma è vero. Li ho subito amati tutti (quasi) <em>(coffcoff "Black Panther" coffcoff)</em> e li ho persino rivisti tutti a fine saga. Vi giuro, non l'avrei fatto, quante ore sono? 53? Ma a quel punto voleva vederli tutti mio fratello. In realtà ha deciso di "appassionarsi" dopo aver visto "Avengers: Endgame": io l'avevo appena finito e lui, curioso, mi ha chiesto di riguardarlo con lui. Gli è piaciuto e siamo ripartiti da "Iron Man" (ma abbiamo finito la saga relativamente in fretta anche grazie alla quarantena ,:) ). Nonostante tutto, non ho mai visto un film della Marvel al cinema -_- . Ho finito tutti i film molto dopo l'uscita di "Spider-Man: Far from Home" e hanno rimandato l'uscita di "Black Widow" per la quarantena. Ci sono rimasta malissimo, ma alla fine non si poteva fare altrimenti... Mi piacerebbe un sacco leggere anche i fumetti dai quali sono stati tratti i film, ma non ne ho ancora avuto l'occasione. In realtà a febbraio sono andata ad un comicon con una mia amica e volevo comprare un fumetto per provare a leggerlo, ma alla fine ero indecisa, non sapevo da cosa iniziare e alla fine non ho preso nulla. Purtroppo ho visto solo la saga Marvel inerente agli Avengers, anche se vorrei vedere quella sugli X-Men. Vorrei vederla con mio fratello, ma a lui non va e allora sto aspettando di convincerlo...</p>
         </div>
-       
+       </div>
 </div>
+<div id="home"><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/"><img src="https://live.staticflickr.com/65535/50628268432_1f3120e8be.jpg" width="120px"></a></div>
+        
     </body>
 </html>
